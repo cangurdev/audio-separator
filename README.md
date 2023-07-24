@@ -1,12 +1,18 @@
 # Audio Separator
 
-Audio Separator is a Python project that allows you to download MP3 audio from a given YouTube URL using the yt_dlp library and then separates the audio tracks using the Spleeter library.
+Audio Separator is a Python project that allows you to download MP3 audio from a given YouTube URL using the [yt_dlp](https://github.com/yt-dlp/yt-dlp) library and then separates the audio tracks using the [spleeter](https://github.com/deezer/spleeter) library.
+
+It separates the audio track into 4 parts in output directory
+-   Drums
+-   Bass
+-   Vocals
+-   Other
 
 ## Requirements
 
-- Python 3.x
+- python 3.x
 - yt_dlp library
-- Spleeter library
+- spleeter library
 
 ## Installation
 

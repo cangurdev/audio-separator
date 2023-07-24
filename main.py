@@ -36,7 +36,6 @@ def separate_instruments(file_name, output_dir='./output'):
     try:
         separator.separate_to_file(file_name, output_dir)
         print(f"Instruments separated successfully. Output files saved in '{output_dir}'.")
-        return file_name
     except Exception as e:
         print(f"An error occurred: {e}")
 
